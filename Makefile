@@ -1,15 +1,11 @@
 NPM_TOKEN=$(shell awk -F'=' '{print $$2}' ~/.npmrc)
-AA=$(shell awk -F'=' '{print $$2}' ~/.npmrc)
-COMMIT_FILE = commit
+COMMIT_FILE = .git/.commit-msg-template
 generate:
 	./bin/init.js
-ee:
-	echo $(AA) > dogs
 npm:
-	@echo $(NPM_TOKEN) > npm
-	gh secret set NPM_TOKEN < npm
-	gh secret set NODE_AUTH_TOKEN < npm
-	rm npm
+	@echo $(NPM_TOKEN) > .git/npm
+	gh secret set NPM_TOKEN < .git/npm
+	rm .git/npm
 patch:
 	echo fix: title > $(COMMIT_FILE)
 	vi $(COMMIT_FILE)
@@ -22,10 +18,11 @@ major:
 
 ifneq ("$(wildcard $(COMMIT_FILE))","")
 pr:
+	echo feat: > $(COMMIT_FILE)
 	git rebase origin/main
 	git reset origin/main
 	git add .
-	git commit -F $(COMMIT_FILE)
+	git commit
 	git push -f
 	gh pr create --fill
 	rm $(COMMIT_FILE)
