@@ -20,8 +20,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: capture output
-        steps:
-        run: echo ${{steps.changelog.outputs}} 
+        run: echo ${{ steps.changelog.outputs }}
 
       # - name: Create Release
       #   run: gh release create ${{ steps.changelog.outputs.clean_changelog }} --generate-notes
