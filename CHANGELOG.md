@@ -1,3 +1,13 @@
+## [1.0.6](https://github.com/cerico/surprise/compare/v1.0.5...v1.0.6) (2023-02-06)
+
+
+### Bug Fixes
+
+* capture output ([e951054](https://github.com/cerico/surprise/commit/e95105446bc72b339b7f967f7f41296e6f31398c))
+* remove steps output ([a97123e](https://github.com/cerico/surprise/commit/a97123e402ed1bdc9f3c054ac7c75993d18f19b8))
+
+
+
 ## [1.0.5](https://github.com/cerico/surprise/compare/v1.0.4...v1.0.5) (2023-02-06)
 
 
@@ -32,10 +42,6 @@
 ### Bug Fixes
 
 * release name ([912c228](https://github.com/cerico/surprise/commit/912c228211bde4dfd1a49ddcdf21d56880aebc0d))
-
-
-
-## 1.0.1 (2023-02-06)
 
 
 
