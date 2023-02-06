@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/cerico/surprise/compare/v1.0.3...v1.0.4) (2023-02-06)
+
+
+### Bug Fixes
+
+* clean_changelog ([31f3c91](https://github.com/cerico/surprise/commit/31f3c917447c40d82be38c2460bcb35e5e3eaf7c))
+
+
+
 ## [1.0.3](https://github.com/cerico/surprise/compare/v1.0.2...v1.0.3) (2023-02-06)
 
 
