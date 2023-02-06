@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/cerico/surprise/compare/v1.0.11...v1.1.0) (2023-02-06)
+
+
+### Bug Fixes
+
+* file 5 ([6043428](https://github.com/cerico/surprise/commit/6043428a220529aef8ae90efa92fcce857e6e6b2))
+
+
+### Features
+
+* file 6 ([d1b1aa5](https://github.com/cerico/surprise/commit/d1b1aa531f2b107c45ae013baa6be3faa3719bc2))
+
+
+
 ## [1.0.11](https://github.com/cerico/surprise/compare/v1.0.10...v1.0.11) (2023-02-06)
 
 
@@ -31,15 +45,6 @@
 ### Bug Fixes
 
 * print outputs separately ([d9ba053](https://github.com/cerico/surprise/commit/d9ba053ded83eca8c8fec97eb7495ef00928486a))
-
-
-
-## [1.0.7](https://github.com/cerico/surprise/compare/v1.0.6...v1.0.7) (2023-02-06)
-
-
-### Bug Fixes
-
-* print log ([457fd12](https://github.com/cerico/surprise/commit/457fd1257c33201685355d70ddc15c0e212bfad6))
 
 
 
