@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/cerico/surprise/compare/v1.2.0...v1.3.0) (2023-02-06)
+
+
+### Features
+
+* new feature ([bd87664](https://github.com/cerico/surprise/commit/bd87664fd23f26c49c810c5761c3dc14ac465dab))
+
+
+
 # [1.2.0](https://github.com/cerico/surprise/compare/v1.1.0...v1.2.0) (2023-02-06)
 
 
@@ -41,15 +50,6 @@
 ### Bug Fixes
 
 * output changelog to file ([a533bbe](https://github.com/cerico/surprise/commit/a533bbec583726ce526cb633fd04b07e1d6296d7))
-
-
-
-## [1.0.9](https://github.com/cerico/surprise/compare/v1.0.8...v1.0.9) (2023-02-06)
-
-
-### Bug Fixes
-
-* dont generate notes ([f3fb152](https://github.com/cerico/surprise/commit/f3fb152eaaa4e970477c6f9ba625773dca6e2c5c))
 
 
 
