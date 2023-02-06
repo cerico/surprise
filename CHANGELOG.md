@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/cerico/surprise/compare/v1.0.4...v1.0.5) (2023-02-06)
+
+
+### Bug Fixes
+
+* worklfow ordering ([caf042d](https://github.com/cerico/surprise/commit/caf042d65106e03923ac7236fa5d35d1eafefb94))
+
+
+
 ## [1.0.4](https://github.com/cerico/surprise/compare/v1.0.3...v1.0.4) (2023-02-06)
 
 
