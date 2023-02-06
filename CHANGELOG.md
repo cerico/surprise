@@ -1,3 +1,12 @@
+## [1.0.10](https://github.com/cerico/surprise/compare/v1.0.9...v1.0.10) (2023-02-06)
+
+
+### Bug Fixes
+
+* output changelog to file ([a533bbe](https://github.com/cerico/surprise/commit/a533bbec583726ce526cb633fd04b07e1d6296d7))
+
+
+
 ## [1.0.9](https://github.com/cerico/surprise/compare/v1.0.8...v1.0.9) (2023-02-06)
 
 
@@ -32,15 +41,6 @@
 
 * capture output ([e951054](https://github.com/cerico/surprise/commit/e95105446bc72b339b7f967f7f41296e6f31398c))
 * remove steps output ([a97123e](https://github.com/cerico/surprise/commit/a97123e402ed1bdc9f3c054ac7c75993d18f19b8))
-
-
-
-## [1.0.5](https://github.com/cerico/surprise/compare/v1.0.4...v1.0.5) (2023-02-06)
-
-
-### Bug Fixes
-
-* worklfow ordering ([caf042d](https://github.com/cerico/surprise/commit/caf042d65106e03923ac7236fa5d35d1eafefb94))
 
 
 
