@@ -28,6 +28,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Create Release
-        run: gh release create ${{ github.ref }} --generate-notes
+        run: gh release create ${{ steps.changelog.outputs.tag }} --generate-notes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
