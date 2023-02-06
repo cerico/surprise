@@ -1,3 +1,14 @@
+## [1.5.1](https://github.com/cerico/surprise/compare/v1.5.0...v1.5.1) (2023-02-06)
+
+
+### Bug Fixes
+
+* cats ([7e6f1e9](https://github.com/cerico/surprise/commit/7e6f1e95a5b3c11717d85e317f9883513013c1b4))
+* deleted dogs ([52640cd](https://github.com/cerico/surprise/commit/52640cde2370e09cca81ce41f9c4cc2dcab121ee))
+* tsanze ([60ce4c4](https://github.com/cerico/surprise/commit/60ce4c48b3a93514dac184487b6c331b34d1161f))
+
+
+
 # [1.5.0](https://github.com/cerico/surprise/compare/v1.4.0...v1.5.0) (2023-02-06)
 
 
@@ -41,20 +52,6 @@
 ### Features
 
 * file 7 ([8be8ca1](https://github.com/cerico/surprise/commit/8be8ca1f28328416f2e0b1f56a554f1ad744a672))
-
-
-
-# [1.1.0](https://github.com/cerico/surprise/compare/v1.0.11...v1.1.0) (2023-02-06)
-
-
-### Bug Fixes
-
-* file 5 ([6043428](https://github.com/cerico/surprise/commit/6043428a220529aef8ae90efa92fcce857e6e6b2))
-
-
-### Features
-
-* file 6 ([d1b1aa5](https://github.com/cerico/surprise/commit/d1b1aa531f2b107c45ae013baa6be3faa3719bc2))
 
 
 
