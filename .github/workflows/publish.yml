@@ -26,10 +26,10 @@ jobs:
         run: echo "${{ steps.changelog.outputs.version }}"
 
       - name: Print the changelog
-        run: echo "${{ steps.changelog.outputs.clean_changelog }}"
+        run: echo "${{ steps.changelog.outputs.clean_changelog }}" > notes.text
 
       - name: Create Release
-        run: gh release create ${{ steps.changelog.outputs.tag  }} -n ${{ steps.changelog.outputs.clean_changelog }}
+        run: gh release create ${{ steps.changelog.outputs.tag  }} --notes-file notes.text
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
