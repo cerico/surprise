@@ -10,11 +10,11 @@ npm:
 	gh secret set NPM_TOKEN < .git/npm
 	rm .git/npm
 patch-message:
-	echo fix: title > $(COMMIT_FILE)
+	echo fix:  > $(COMMIT_FILE)
 minor-message:
-	echo feat: title > $(COMMIT_FILE)
+	echo feat:  > $(COMMIT_FILE)
 major-message:
-	echo feat!: title > $(COMMIT_FILE)
+	echo feat!:  > $(COMMIT_FILE)
 ifneq ("$(wildcard $(COMMIT_FILE))","")
 pr:
 	git rebase origin/main
@@ -23,7 +23,7 @@ pr:
 	git commit
 	git push -f
 	gh pr create --fill
-	rm $(COMMIT_FILE)
+	echo fix: >  $(COMMIT_FILE)
 else
 pr:
 	@echo run \"make patch\" , \"make minor\", or \"make major\" to create conventional commits before creating PR
