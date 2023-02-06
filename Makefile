@@ -2,23 +2,21 @@ NPM_TOKEN=$(shell awk -F'=' '{print $$2}' ~/.npmrc)
 COMMIT_FILE = .git/.commit-msg-template
 generate:
 	./bin/init.js
+patch: patch-message pr
+minor: minor-message pr
+major: major-message pr
 npm:
 	@echo $(NPM_TOKEN) > .git/npm
 	gh secret set NPM_TOKEN < .git/npm
 	rm .git/npm
-patch:
+patch-message:
 	echo fix: title > $(COMMIT_FILE)
-	vi $(COMMIT_FILE)
-minor:
+minor-message:
 	echo feat: title > $(COMMIT_FILE)
-	vi $(COMMIT_FILE)
-major:
+major-message:
 	echo feat!: title > $(COMMIT_FILE)
-	vi $(COMMIT_FILE)
-
 ifneq ("$(wildcard $(COMMIT_FILE))","")
 pr:
-	echo feat: > $(COMMIT_FILE)
 	git rebase origin/main
 	git reset origin/main
 	git add .
