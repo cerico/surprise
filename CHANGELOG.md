@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/cerico/surprise/compare/v1.4.0...v1.5.0) (2023-02-06)
+
+
+### Features
+
+* using new pr alias ([864091c](https://github.com/cerico/surprise/commit/864091ceba112b80779b24e6c17e3c9c7c7b7507))
+
+
+
 # [1.4.0](https://github.com/cerico/surprise/compare/v1.3.0...v1.4.0) (2023-02-06)
 
 
@@ -46,15 +55,6 @@
 ### Features
 
 * file 6 ([d1b1aa5](https://github.com/cerico/surprise/commit/d1b1aa531f2b107c45ae013baa6be3faa3719bc2))
-
-
-
-## [1.0.11](https://github.com/cerico/surprise/compare/v1.0.10...v1.0.11) (2023-02-06)
-
-
-### Bug Fixes
-
-* files 4 ([4e7d6ba](https://github.com/cerico/surprise/commit/4e7d6ba8f7cfcd887754de08e73ce80964c2cd47))
 
 
 
