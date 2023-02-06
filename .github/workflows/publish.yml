@@ -28,16 +28,16 @@ jobs:
       - name: Print the changelog
         run: echo "${{ steps.changelog.outputs.clean_changelog }}"
 
-      # - name: Create Release
-      #   run: gh release create ${{ steps.changelog.outputs.clean_changelog }} --generate-notes
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release
+        run: gh release create ${{ steps.changelog.outputs.tag  }} -n ${{ steps.changelog.outputs.clean_changelog }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: '16.x'
-      #     registry-url: 'https://registry.npmjs.org'
-      # - run: npm ci
-      # - run: npm publish
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
